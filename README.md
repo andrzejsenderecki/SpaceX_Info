@@ -6,7 +6,7 @@ Link do projektu:
 
 https://andrzejsenderecki.github.io/SpaceX_Info/
 
-Aplikacja przedstawia dane na temat SpaceX i oparta zostanie o różne sposoby tworzenia asynchronicznego kodu JavaScript takie jak Promise i Generatory.
+Aplikacja przedstawia dane na temat SpaceX i oparta zostanie o różne sposoby tworzenia asynchronicznego kodu JavaScript, takie jak PROMISE i GENERATORY.
 
 Aplikacja bazuje na danych pobieranych ze SpaceX-API: https://github.com/r-spacex/SpaceX-API 
 
