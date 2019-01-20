@@ -1,6 +1,6 @@
 module.exports={
    mode: "development",
-   entry:"./scripts/app.js",
+   entry:['babel-polyfill', "./scripts/app.js"],
    watch: true,
    output: {
        filename: "../scripts/out.js"
@@ -25,8 +25,9 @@ module.exports={
                                    browsers: [
                                        'Chrome 49'
                                    ]
-                               }
-                           }]
+                               },
+                           }],
+                           "es2015", "stage-0"
                        ]
                    }
                }
