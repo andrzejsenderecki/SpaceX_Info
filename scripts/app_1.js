@@ -3,7 +3,7 @@ require("babel-core/register");
 require("babel-polyfill");
 
 document.addEventListener('DOMContentLoaded', () => {
-
+    console.log('ssssss');
     function getData(url) {
         fetch(url).then(response => {
             return response.json();

@@ -1,10 +1,14 @@
+const path = require('path');
 module.exports={
    mode: "development",
-   entry:['babel-polyfill', "./scripts/app.js"],
-   watch: true,
-   output: {
-       filename: "../scripts/out.js"
-   },
+   entry: {
+    app_1 : "./scripts/app_1.js",
+    app_2 : "./scripts/app_2.js",
+},
+output: {
+    filename: "out_[name].js",
+    path: `${__dirname}/scripts`,
+},
    module: {
        rules: [
            {
@@ -31,6 +35,7 @@ module.exports={
                        ]
                    }
                }
-           }]
+           }
+       ]
    }
 };
