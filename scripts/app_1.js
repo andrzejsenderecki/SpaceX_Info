@@ -1,9 +1,12 @@
 require('../scss/partials/_main.scss');
-require("babel-core/register");
-require("babel-polyfill");
+require('../scss/partials/_header.scss');
+require('../scss/partials/_main_page.scss');
+require('../scss/partials/_footer.scss');
+require('babel-core/register');
+require('babel-polyfill');
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('ssssss');
+
     function getData(url) {
         fetch(url).then(response => {
             return response.json();
@@ -31,13 +34,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const rockets = yield getData('https://api.spacexdata.com/v3/rockets');
 
-        const listRockets = document.querySelector('section').firstElementChild.nextElementSibling;
+        const listRockets = document.getElementById('rocket').lastElementChild;
         removeLoadingText(listRockets);
 
         if(rockets !== 'Error.') {
             rockets.forEach(element => {
+                let rocketValue = element.rocket_id;
                 let li = document.createElement('li');
-                li.innerText = element.rocket_name;
+                let link = document.createElement('a');
+                link.setAttribute('href', 'rocket.html');
+                link.innerText = element.rocket_name;
+                li.appendChild(link);
+                li.addEventListener('click', () => {
+                    localStorage.setItem('element', rocketValue);
+                    localStorage.setItem('elementName', element.rocket_name);
+                });
                 listRockets.appendChild(li);
             });
         } else {
@@ -48,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const dragons = yield getData('https://api.spacexdata.com/v3/dragons');
 
-        const listDragons = listRockets.nextElementSibling.nextElementSibling;
+        const listDragons = document.getElementById('dragons').lastElementChild;
 
         removeLoadingText(listDragons);
 
@@ -66,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const landingPads = yield getData('https://api.spacexdata.com/v3/landpads');
 
-        const listLandingPads = listDragons.nextElementSibling.nextElementSibling;
+        const listLandingPads = document.getElementById('landingPads').lastElementChild;
 
         removeLoadingText(listLandingPads);
 
@@ -84,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const lunchPads = yield getData('https://api.spacexdata.com/v3/launchpads');
 
-        const listLunchPads = listLandingPads.nextElementSibling.nextElementSibling;
+        const listLunchPads = document.getElementById('launchPads').lastElementChild;
 
         removeLoadingText(listLunchPads);
 
@@ -98,29 +109,11 @@ document.addEventListener('DOMContentLoaded', () => {
             errorSupport(lunchPads, listLunchPads);
         }
 
-        // Ships
-
-        const ships = yield getData('https://api.spacexdata.com/v3/ships');
-
-        const listShips = listLunchPads.nextElementSibling.nextElementSibling;
-
-        removeLoadingText(listShips);
-
-        if(ships !== 'Error.') {
-            ships.forEach(element => {
-                let li = document.createElement('li');
-                li.innerText = element.ship_name;
-                listShips.appendChild(li);
-            });
-        } else {
-            errorSupport(ships, listShips);
-        }
-
         // Missions
 
         const missions = yield getData('https://api.spacexdata.com/v3/missions');
 
-        const listMissions = listShips.nextElementSibling.nextElementSibling;
+        const listMissions = document.getElementById('missions').lastElementChild;
 
         removeLoadingText(listMissions);
 

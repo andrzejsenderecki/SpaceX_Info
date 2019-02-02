@@ -3839,6 +3839,28 @@ eval("__webpack_require__(/*! ./modules/es6.symbol */ \"./node_modules/core-js/m
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_footer.scss":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_footer.scss ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"footer {\\n  width: 100%;\\n  display: flex;\\n  justify-content: center;\\n  padding: 40px 0 40px 0; }\\n  footer a {\\n    font-family: 'Lato', sans-serif;\\n    font-size: 1.5rem;\\n    color: #848789;\\n    text-decoration: none; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./scss/partials/_footer.scss?./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_header.scss":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_header.scss ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"header {\\n  width: 100%;\\n  display: flex;\\n  justify-content: center; }\\n  header h1 {\\n    font-family: 'Lato', sans-serif;\\n    font-size: 3rem;\\n    color: #848789;\\n    padding: 20px 0 0 0;\\n    text-align: center; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./scss/partials/_header.scss?./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_main.scss":
 /*!***************************************************************************************************************!*\
   !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_main.scss ***!
@@ -3846,7 +3868,18 @@ eval("__webpack_require__(/*! ./modules/es6.symbol */ \"./node_modules/core-js/m
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box; }\\n\\nhtml {\\n  font-size: 62.5%; }\\n\\nbody {\\n  display: flex;\\n  align-items: center;\\n  flex-direction: column; }\\n\\nh1 {\\n  font-family: 'Lato', sans-serif;\\n  font-size: 3rem;\\n  color: #848789;\\n  padding: 20px 0 0 0; }\\n\\nh2 {\\n  font-family: 'Lato', sans-serif;\\n  font-size: 2rem;\\n  color: #4d4959;\\n  text-align: center;\\n  text-transform: uppercase;\\n  padding-top: 30px; }\\n\\nul {\\n  padding: 10px 0 0 0; }\\n  ul li {\\n    font-family: 'Lato', sans-serif;\\n    font-size: 1.5rem;\\n    color: #4d4959;\\n    line-height: 3rem;\\n    list-style: none;\\n    text-align: center; }\\n\\nfooter {\\n  padding: 40px 0 40px 0; }\\n  footer a {\\n    font-family: 'Lato', sans-serif;\\n    font-size: 1.5rem;\\n    color: #848789;\\n    text-decoration: none; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./scss/partials/_main.scss?./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box; }\\n\\nhtml {\\n  font-size: 62.5%; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./scss/partials/_main.scss?./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_rocket.scss":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_rocket.scss ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".rocket-data-container {\\n  width: 100%;\\n  display: flex;\\n  flex-direction: column; }\\n\\n.rocket-data {\\n  width: 100%; }\\n  .rocket-data h2 {\\n    font-family: 'Lato', sans-serif;\\n    font-size: 2rem;\\n    color: #4d4959;\\n    text-align: center;\\n    text-transform: uppercase;\\n    padding-top: 30px; }\\n  .rocket-data h3 {\\n    font-family: 'Lato', sans-serif;\\n    font-size: 1.7rem;\\n    color: #4d4959;\\n    text-align: center;\\n    padding-top: 30px; }\\n  .rocket-data p {\\n    text-align: center;\\n    font-family: 'Lato', sans-serif;\\n    font-size: 1.5rem;\\n    color: #4d4959;\\n    line-height: 3rem; }\\n  .rocket-data ul {\\n    padding: 10px 0 0 0; }\\n    .rocket-data ul li {\\n      list-style: none;\\n      text-align: center;\\n      font-family: 'Lato', sans-serif;\\n      font-size: 1.5rem;\\n      color: #4d4959;\\n      line-height: 3rem; }\\n      .rocket-data ul li a {\\n        font-family: 'Lato', sans-serif;\\n        font-size: 1.5rem;\\n        color: #4d4959;\\n        line-height: 3rem;\\n        text-decoration: none; }\\n\\n.rocket-gallery {\\n  width: 100%;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center; }\\n\\n@media (min-width: 1100px) {\\n  .rocket-data-container {\\n    justify-content: center;\\n    flex-direction: row; }\\n  .rocket-data {\\n    width: 50%; }\\n  .rocket-gallery {\\n    width: 50%; } }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./scss/partials/_rocket.scss?./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -3902,7 +3935,29 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! ../scss/partials/_main.scss */ \"./scss/partials/_main.scss\");\n__webpack_require__(/*! babel-core/register */ \"./node_modules/babel-core/register.js\");\n__webpack_require__(/*! babel-polyfill */ \"./node_modules/babel-polyfill/lib/index.js\");\n\ndocument.addEventListener('DOMContentLoaded', function () {});\n\n//# sourceURL=webpack:///./scripts/app_2.js?");
+eval("\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\n__webpack_require__(/*! ../scss/partials/_main.scss */ \"./scss/partials/_main.scss\");\n__webpack_require__(/*! ../scss/partials/_header.scss */ \"./scss/partials/_header.scss\");\n__webpack_require__(/*! ../scss/partials/_rocket.scss */ \"./scss/partials/_rocket.scss\");\n__webpack_require__(/*! ../scss/partials/_footer.scss */ \"./scss/partials/_footer.scss\");\n__webpack_require__(/*! babel-core/register */ \"./node_modules/babel-core/register.js\");\n__webpack_require__(/*! babel-polyfill */ \"./node_modules/babel-polyfill/lib/index.js\");\n\ndocument.addEventListener('DOMContentLoaded', function () {\n    var getRocket = function () {\n        var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(url) {\n            var rocketData, rocketDimensionTitle, rocketDataListSize, rocketDiameter, rocketHeight;\n            return regeneratorRuntime.wrap(function _callee$(_context) {\n                while (1) {\n                    switch (_context.prev = _context.next) {\n                        case 0:\n                            _context.next = 2;\n                            return fetch(url).then(function (response) {\n                                return response.json();\n                            });\n\n                        case 2:\n                            rocketData = _context.sent;\n                            rocketDimensionTitle = document.createElement('h3');\n                            rocketDataListSize = document.querySelector('ul');\n                            rocketDiameter = document.querySelector('li');\n                            rocketHeight = document.createElement('li');\n\n                            rocketDimensionTitle.innerText = 'Dimension:';\n                            rocketDiameter.innerText = 'Diameter: ' + rocketData.diameter.meters + 'm';\n                            rocketHeight.innerText = 'Height: ' + rocketData.height.meters + 'm';\n                            rocketDataSection.insertBefore(rocketDimensionTitle, rocketDataListSize);\n                            rocketDataListSize.appendChild(rocketHeight);\n\n                        case 12:\n                        case 'end':\n                            return _context.stop();\n                    }\n                }\n            }, _callee, this);\n        }));\n\n        return function getRocket(_x) {\n            return _ref.apply(this, arguments);\n        };\n    }();\n\n    var rocketDataSection = document.querySelector('.rocket-data');\n    var rocketDataList = document.querySelector('.rocket-data ul');\n    var name = document.createElement('h2');\n    name.innerText = localStorage.getItem('elementName');\n    rocketDataSection.insertBefore(name, rocketDataList);\n\n    getRocket('https://api.spacexdata.com/v3/rockets/' + localStorage.getItem('element'));\n});\n\n//# sourceURL=webpack:///./scripts/app_2.js?");
+
+/***/ }),
+
+/***/ "./scss/partials/_footer.scss":
+/*!************************************!*\
+  !*** ./scss/partials/_footer.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader?url=false!../../node_modules/sass-loader/lib/loader.js!./_footer.scss */ \"./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_footer.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./scss/partials/_footer.scss?");
+
+/***/ }),
+
+/***/ "./scss/partials/_header.scss":
+/*!************************************!*\
+  !*** ./scss/partials/_header.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader?url=false!../../node_modules/sass-loader/lib/loader.js!./_header.scss */ \"./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_header.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./scss/partials/_header.scss?");
 
 /***/ }),
 
@@ -3914,6 +3969,17 @@ eval("\n\n__webpack_require__(/*! ../scss/partials/_main.scss */ \"./scss/partia
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader?url=false!../../node_modules/sass-loader/lib/loader.js!./_main.scss */ \"./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_main.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./scss/partials/_main.scss?");
+
+/***/ }),
+
+/***/ "./scss/partials/_rocket.scss":
+/*!************************************!*\
+  !*** ./scss/partials/_rocket.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader?url=false!../../node_modules/sass-loader/lib/loader.js!./_rocket.scss */ \"./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_rocket.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./scss/partials/_rocket.scss?");
 
 /***/ })
 
