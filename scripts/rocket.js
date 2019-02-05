@@ -1,6 +1,6 @@
 require('../scss/partials/_main.scss');
 require('../scss/partials/_header.scss');
-require('../scss/partials/_rocket.scss');
+require('../scss/partials/_details_page.scss');
 require('../scss/partials/_footer.scss');
 require('babel-core/register');
 require('babel-polyfill');
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function createElements() {
         const rocketData = await getDetailsData(`https://api.spacexdata.com/v3/rockets/${localStorage.getItem('element')}`);
 
-        const rocketDataSection = document.querySelector('.rocket-data');
+        const rocketDataSection = document.querySelector('.data');
 
         // Description
 
@@ -74,13 +74,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Gallery
 
-        const rocketGallerySection = document.querySelector('.rocket-gallery');
+        const rocketGalleryContainer = document.querySelector('.gallery-container');
+        const rocketGallery = document.querySelector('.gallery');
+
+        const rocketGalleryTitle = document.createElement('h3');
+        rocketGalleryTitle.innerText = 'Gallery';
+        rocketGalleryContainer.insertBefore(rocketGalleryTitle, rocketGallery);
+
         const rocketGalleryImages = document.createElement('ul');
 
         rocketData.flickr_images.forEach(element => {
             let img = document.createElement('img');
             img.setAttribute('src', element);
-            rocketGallerySection.appendChild(img);
+            rocketGallery.appendChild(img);
         });
     }
 

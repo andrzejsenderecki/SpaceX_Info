@@ -2,8 +2,9 @@ const path = require('path');
 module.exports={
    mode: "development",
    entry: {
-    app_1 : "./scripts/app_1.js",
-    app_2 : "./scripts/app_2.js",
+    main_page : "./scripts/main_page.js",
+    rocket : "./scripts/rocket.js",
+    dragon : "./scripts/dragon.js"
 },
 output: {
     filename: "out_[name].js",

@@ -60,71 +60,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const dragons = yield getData('https://api.spacexdata.com/v3/dragons');
 
         const listDragons = document.getElementById('dragons').lastElementChild;
-
         removeLoadingText(listDragons);
 
         if(dragons !== 'Error.') {
             dragons.forEach(element => {
+                let dragonValue = element.id;
                 let li = document.createElement('li');
-                li.innerText = element.name;
+                let link = document.createElement('a');
+                link.setAttribute('href', 'dragon.html');
+                link.innerText = element.name;
+                li.appendChild(link);
                 listDragons.appendChild(li);
+                li.addEventListener('click', () => {
+                    localStorage.setItem('element', dragonValue);
+                    localStorage.setItem('elementName', element.name);
+                });
             });
         } else {
             errorSupport(dragons, listDragons);
-        }
-
-        // Landing Pads
-
-        const landingPads = yield getData('https://api.spacexdata.com/v3/landpads');
-
-        const listLandingPads = document.getElementById('landingPads').lastElementChild;
-
-        removeLoadingText(listLandingPads);
-
-        if(landingPads !== 'Error.') {
-            landingPads.forEach(element => {
-                let li = document.createElement('li');
-                li.innerText = element.location.name;
-                listLandingPads.appendChild(li);
-            });
-        } else {
-            errorSupport(landingPads, listLandingPads);
-        }
-
-        // Lunch Pads
-
-        const lunchPads = yield getData('https://api.spacexdata.com/v3/launchpads');
-
-        const listLunchPads = document.getElementById('launchPads').lastElementChild;
-
-        removeLoadingText(listLunchPads);
-
-        if(lunchPads !== 'Error.') {
-            lunchPads.forEach(element => {
-                let li = document.createElement('li');
-                li.innerText = element.location.name;
-                listLunchPads.appendChild(li);
-            });
-        } else {
-            errorSupport(lunchPads, listLunchPads);
-        }
-
-        // Missions
-
-        const missions = yield getData('https://api.spacexdata.com/v3/missions');
-
-        const listMissions = document.getElementById('missions').lastElementChild;
-
-        removeLoadingText(listMissions);
-
-        if(missions !== 'Error.') {
-            missions.forEach(element => {
-                let li = document.createElement('li');
-                li.innerText = element.mission_name;
-                listMissions.appendChild(li);
-            });
-        } else {
-            errorSupport(missions, listMissions);
         }
     }
 
