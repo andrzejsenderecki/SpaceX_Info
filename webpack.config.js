@@ -4,7 +4,8 @@ module.exports={
    entry: {
     main_page : "./scripts/main_page.js",
     rocket : "./scripts/rocket.js",
-    dragon : "./scripts/dragon.js"
+    dragon : "./scripts/dragon.js",
+    roadster : "./scripts/roadster.js"
 },
 output: {
     filename: "out_[name].js",

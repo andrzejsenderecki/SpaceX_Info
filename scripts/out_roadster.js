@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./scripts/main_page.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./scripts/roadster.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -3839,6 +3839,17 @@ eval("__webpack_require__(/*! ./modules/es6.symbol */ \"./node_modules/core-js/m
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_details_page.scss":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_details_page.scss ***!
+  \***********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"header h1 {\\n  font-size: 2.5rem; }\\n\\nheader h2 {\\n  font-size: 6rem;\\n  padding-top: 20px; }\\n\\n.data-container {\\n  width: 100%;\\n  display: flex;\\n  flex-wrap: wrap;\\n  flex-direction: column;\\n  align-items: center; }\\n\\n.description {\\n  width: 90%;\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center; }\\n\\n.data {\\n  width: 100%; }\\n\\n.gallery-container {\\n  width: 100%; }\\n\\n.gallery {\\n  width: 100%;\\n  padding-top: 20px;\\n  display: flex;\\n  flex-wrap: wrap;\\n  justify-content: center;\\n  align-items: flex-start; }\\n  .gallery h3 {\\n    font-family: 'Lato', sans-serif;\\n    font-size: 1.7rem;\\n    color: #4d4959;\\n    text-align: center;\\n    padding-top: 30px; }\\n  .gallery img {\\n    width: 100%;\\n    padding: 5px; }\\n\\n@media (min-width: 1100px) {\\n  .data-container {\\n    justify-content: center;\\n    flex-direction: row;\\n    align-items: flex-start; }\\n  .description {\\n    width: 80%; }\\n  .data {\\n    width: 50%; }\\n  .gallery-container {\\n    width: 50%; }\\n  .gallery img {\\n    width: 50%;\\n    padding: 5px; } }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./scss/partials/_details_page.scss?./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_footer.scss":
 /*!*****************************************************************************************************************!*\
   !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_footer.scss ***!
@@ -3869,17 +3880,6 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box; }\\n\\nhtml {\\n  font-size: 62.5%; }\\n\\nh2 {\\n  font-family: 'Lato', sans-serif;\\n  font-size: 2rem;\\n  color: #4d4959;\\n  text-align: center;\\n  text-transform: uppercase;\\n  padding-top: 30px; }\\n\\nh3 {\\n  font-family: 'Lato', sans-serif;\\n  font-size: 1.7rem;\\n  color: #4d4959;\\n  text-align: center;\\n  padding-top: 30px; }\\n\\np {\\n  text-align: center;\\n  font-family: 'Lato', sans-serif;\\n  font-size: 1.5rem;\\n  color: #4d4959;\\n  line-height: 3rem;\\n  padding: 10px 0 20px 0; }\\n\\nul {\\n  padding: 10px 0 0 0; }\\n  ul li {\\n    list-style: none;\\n    text-align: center;\\n    font-family: 'Lato', sans-serif;\\n    font-size: 1.5rem;\\n    color: #4d4959;\\n    line-height: 3rem; }\\n    ul li a {\\n      font-family: 'Lato', sans-serif;\\n      font-size: 1.5rem;\\n      color: #4d4959;\\n      line-height: 3rem;\\n      text-decoration: none; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./scss/partials/_main.scss?./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_main_page.scss":
-/*!********************************************************************************************************************!*\
-  !*** ./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_main_page.scss ***!
-  \********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".category-container {\\n  width: 100%;\\n  display: flex;\\n  justify-content: center;\\n  flex-direction: column; }\\n\\n.category {\\n  width: 100%; }\\n\\n@media (min-width: 1100px) {\\n  .category-container {\\n    align-items: flex-start;\\n    flex-direction: row; }\\n  .category {\\n    width: 20%; } }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./scss/partials/_main_page.scss?./node_modules/css-loader?url=false!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -3927,15 +3927,26 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
-/***/ "./scripts/main_page.js":
-/*!******************************!*\
-  !*** ./scripts/main_page.js ***!
-  \******************************/
+/***/ "./scripts/roadster.js":
+/*!*****************************!*\
+  !*** ./scripts/roadster.js ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! ../scss/partials/_main.scss */ \"./scss/partials/_main.scss\");\n__webpack_require__(/*! ../scss/partials/_header.scss */ \"./scss/partials/_header.scss\");\n__webpack_require__(/*! ../scss/partials/_main_page.scss */ \"./scss/partials/_main_page.scss\");\n__webpack_require__(/*! ../scss/partials/_footer.scss */ \"./scss/partials/_footer.scss\");\n__webpack_require__(/*! babel-core/register */ \"./node_modules/babel-core/register.js\");\n__webpack_require__(/*! babel-polyfill */ \"./node_modules/babel-polyfill/lib/index.js\");\n\ndocument.addEventListener('DOMContentLoaded', function () {\n    var _marked = /*#__PURE__*/regeneratorRuntime.mark(generator);\n\n    function getData(url) {\n        fetch(url).then(function (response) {\n            return response.json();\n        }).then(function (json) {\n            generatorControl.next(json);\n        }).catch(function (error) {\n            generatorControl.next('Error.');\n        });\n    }\n\n    function removeLoadingText(list) {\n        var removeElementFirst = list.firstElementChild;\n        removeElementFirst.parentElement.removeChild(removeElementFirst);\n    }\n\n    function errorSupport(response, list) {\n        var li = document.createElement('li');\n        li.innerText = response;\n        list.appendChild(li);\n    }\n\n    function generator() {\n        var rockets, listRockets, dragons, listDragons, roadster, listRoadster, roadsterValue, li, link;\n        return regeneratorRuntime.wrap(function generator$(_context) {\n            while (1) {\n                switch (_context.prev = _context.next) {\n                    case 0:\n                        _context.next = 2;\n                        return getData('https://api.spacexdata.com/v3/rockets');\n\n                    case 2:\n                        rockets = _context.sent;\n                        listRockets = document.getElementById('rocket').lastElementChild;\n\n                        removeLoadingText(listRockets);\n\n                        if (rockets !== 'Error.') {\n                            rockets.forEach(function (element) {\n                                var rocketValue = element.rocket_id;\n                                var li = document.createElement('li');\n                                var link = document.createElement('a');\n                                link.setAttribute('href', 'rocket.html');\n                                link.innerText = element.rocket_name;\n                                li.appendChild(link);\n                                li.addEventListener('click', function () {\n                                    localStorage.setItem('element', rocketValue);\n                                    localStorage.setItem('elementName', element.rocket_name);\n                                });\n                                listRockets.appendChild(li);\n                            });\n                        } else {\n                            errorSupport(rockets, listRockets);\n                        }\n\n                        // Dragons\n\n                        _context.next = 8;\n                        return getData('https://api.spacexdata.com/v3/dragons');\n\n                    case 8:\n                        dragons = _context.sent;\n                        listDragons = document.getElementById('dragons').lastElementChild;\n\n                        removeLoadingText(listDragons);\n\n                        if (dragons !== 'Error.') {\n                            dragons.forEach(function (element) {\n                                var dragonValue = element.id;\n                                var li = document.createElement('li');\n                                var link = document.createElement('a');\n                                link.setAttribute('href', 'dragon.html');\n                                link.innerText = element.name;\n                                li.appendChild(link);\n                                listDragons.appendChild(li);\n                                li.addEventListener('click', function () {\n                                    localStorage.setItem('element', dragonValue);\n                                    localStorage.setItem('elementName', element.name);\n                                });\n                            });\n                        } else {\n                            errorSupport(dragons, listDragons);\n                        }\n\n                        // Roadster\n\n                        _context.next = 14;\n                        return getData('https://api.spacexdata.com/v3/roadster');\n\n                    case 14:\n                        roadster = _context.sent;\n                        listRoadster = document.getElementById('roadster').lastElementChild;\n\n                        removeLoadingText(listRoadster);\n\n                        if (roadster !== 'Error.') {\n                            roadsterValue = roadster.id;\n                            li = document.createElement('li');\n                            link = document.createElement('a');\n\n                            link.setAttribute('href', 'roadster.html');\n                            link.innerText = roadster.name;\n                            li.appendChild(link);\n                            listRoadster.appendChild(li);\n                            li.addEventListener('click', function () {\n                                localStorage.setItem('element', roadsterValue);\n                                localStorage.setItem('elementName', roadster.name);\n                            });\n                        } else {\n                            errorSupport(roadster, listRoadster);\n                        }\n\n                    case 18:\n                    case 'end':\n                        return _context.stop();\n                }\n            }\n        }, _marked, this);\n    }\n\n    var generatorControl = generator();\n    generatorControl.next();\n});\n\n//# sourceURL=webpack:///./scripts/main_page.js?");
+eval("\n\n__webpack_require__(/*! ../scss/partials/_main.scss */ \"./scss/partials/_main.scss\");\n__webpack_require__(/*! ../scss/partials/_header.scss */ \"./scss/partials/_header.scss\");\n__webpack_require__(/*! ../scss/partials/_details_page.scss */ \"./scss/partials/_details_page.scss\");\n__webpack_require__(/*! ../scss/partials/_footer.scss */ \"./scss/partials/_footer.scss\");\n__webpack_require__(/*! babel-core/register */ \"./node_modules/babel-core/register.js\");\n__webpack_require__(/*! babel-polyfill */ \"./node_modules/babel-polyfill/lib/index.js\");\n\ndocument.addEventListener('DOMContentLoaded', function () {\n\n    function getRoadsterData(url) {\n        fetch(url).then(function (response) {\n            return response.json();\n        }).then(function (json) {\n            displayRoadsterData(json);\n        });\n    }\n\n    function displayRoadsterData(roadsterData) {\n        var roadsterDataSection = document.querySelector('.data');\n\n        // Description\n\n        var roadsterDescription = document.querySelector('p');\n        roadsterDescription.innerText = roadsterData.details;\n\n        // General Info\n\n        var roadsterGeneralTitle = document.createElement('h3');\n        roadsterGeneralTitle.innerText = 'General Info';\n        roadsterDataSection.appendChild(roadsterGeneralTitle);\n\n        var roadsterGeneralList = document.createElement('ul');\n\n        var roadsterGeneralFirstFlight = document.createElement('li');\n        var launchDate = roadsterData.launch_date_utc;\n        var launchDateCrop = '';\n\n        for (var i = 0; i < launchDate.length; i++) {\n            if (launchDate[i] === 'T') {\n                break;\n            } else {\n                launchDateCrop = launchDateCrop + launchDate[i];\n            }\n        }\n\n        roadsterGeneralFirstFlight.innerText = 'Launch Date: ' + launchDateCrop;\n        roadsterGeneralList.appendChild(roadsterGeneralFirstFlight);\n        roadsterDataSection.appendChild(roadsterGeneralList);\n\n        // Gallery\n\n        var roadsterGalleryContainer = document.querySelector('.gallery-container');\n        var roadsterGallery = document.querySelector('.gallery');\n\n        var roadsterGalleryTitle = document.createElement('h3');\n        roadsterGalleryTitle.innerText = 'Gallery';\n        roadsterGalleryContainer.insertBefore(roadsterGalleryTitle, roadsterGallery);\n\n        var roadsterGalleryImages = document.createElement('ul');\n\n        roadsterData.flickr_images.forEach(function (element) {\n            var img = document.createElement('img');\n            img.setAttribute('src', element);\n            roadsterGallery.appendChild(img);\n        });\n    }\n\n    getRoadsterData('https://api.spacexdata.com/v3/roadster');\n\n    var roadsterHeader = document.querySelector('header');\n    var name = document.createElement('h2');\n    name.innerText = localStorage.getItem('elementName');\n    roadsterHeader.appendChild(name);\n});\n\n//# sourceURL=webpack:///./scripts/roadster.js?");
+
+/***/ }),
+
+/***/ "./scss/partials/_details_page.scss":
+/*!******************************************!*\
+  !*** ./scss/partials/_details_page.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader?url=false!../../node_modules/sass-loader/lib/loader.js!./_details_page.scss */ \"./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_details_page.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./scss/partials/_details_page.scss?");
 
 /***/ }),
 
@@ -3969,17 +3980,6 @@ eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader?url
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader?url=false!../../node_modules/sass-loader/lib/loader.js!./_main.scss */ \"./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_main.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./scss/partials/_main.scss?");
-
-/***/ }),
-
-/***/ "./scss/partials/_main_page.scss":
-/*!***************************************!*\
-  !*** ./scss/partials/_main_page.scss ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader?url=false!../../node_modules/sass-loader/lib/loader.js!./_main_page.scss */ \"./node_modules/css-loader/index.js?url=false!./node_modules/sass-loader/lib/loader.js!./scss/partials/_main_page.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./scss/partials/_main_page.scss?");
 
 /***/ })
 

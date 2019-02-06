@@ -79,6 +79,29 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             errorSupport(dragons, listDragons);
         }
+
+        // Roadster
+
+        const roadster = yield getData('https://api.spacexdata.com/v3/roadster');
+
+        const listRoadster = document.getElementById('roadster').lastElementChild;
+        removeLoadingText(listRoadster);
+
+        if(roadster !== 'Error.') {
+            let roadsterValue = roadster.id;
+            let li = document.createElement('li');
+            let link = document.createElement('a');
+            link.setAttribute('href', 'roadster.html');
+            link.innerText = roadster.name;
+            li.appendChild(link);
+            listRoadster.appendChild(li);
+            li.addEventListener('click', () => {
+                localStorage.setItem('element', roadsterValue);
+                localStorage.setItem('elementName', roadster.name);
+            });
+        } else {
+            errorSupport(roadster, listRoadster);
+        }
     }
 
     const generatorControl = generator();
